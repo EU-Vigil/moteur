@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Scientific data and caches
+raw_stats_cache/
+_compare_json_v1/
+_compare_api_light_v1/
+*.parquet
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+*.jsonl
+
+# Secrets and infrastructure
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.log
+*.bak
+*.bak-*
+*.sql
+*.dump
+*credentials*
+*secrets*
+*token*
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
